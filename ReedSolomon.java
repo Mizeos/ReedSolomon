@@ -22,7 +22,7 @@ public class ReedSolomon {
     public static int tt = 3; // Capacité de correction (ici 3)
     public static int kk = 249; // Dimension du code kk = nn-2*tt
 
-    public static int [] pp= {1,1,0,0,1,0,0,0,0}; // coefficients du polynome primitif  0 à la fin en mode yolo
+    public static int [] pp= {1,1,1,1,0,0,0,0,1}; // coefficients du polynome primitif  0 à la fin en mode yolo
     public static int [] alpha_to = new int[nn+1];
     public static int [] index_of = new int[nn+1];
     public static int [] gg= new int [nn-kk+1]; // Definition des tableaux de coefficients de polynome
